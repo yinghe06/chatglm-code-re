@@ -2,7 +2,6 @@ package cn.heying.plus.sdk;
 import cn.heying.plus.sdk.domain.model.ChatCompletionSyncResponseDTO;
 import cn.heying.plus.sdk.types.utils.BearerTokenUtils;
 import com.alibaba.fastjson2.JSON;
-
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;

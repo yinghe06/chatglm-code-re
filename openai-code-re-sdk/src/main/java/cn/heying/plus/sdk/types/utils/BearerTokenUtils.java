@@ -1,6 +1,4 @@
 package cn.heying.plus.sdk.types.utils;
-
-
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.google.common.cache.Cache;
