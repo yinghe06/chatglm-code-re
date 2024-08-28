@@ -108,7 +108,7 @@
                     <archive>
                         <manifest>
                             <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
-                            <mainClass>plus.gaga.middleware.sdk.OpenAiCodeReview</mainClass>
+                            <mainClass>cn.heying.plus.sdk.OpenAiCodeReview</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
