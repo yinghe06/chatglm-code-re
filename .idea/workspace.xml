@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="422a7f40-d2a8-4038-8268-f1dc56c2ff7c" name="Changes" comment="" />
+    <list default="true" id="422a7f40-d2a8-4038-8268-f1dc56c2ff7c" name="Changes" comment="&#10;--new yml">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main-maven-jar.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main-maven-jar.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,7 +143,7 @@
       <workItem from="1724675489391" duration="3862000" />
       <workItem from="1724680848169" duration="186000" />
       <workItem from="1724681065041" duration="2396000" />
-      <workItem from="1724683485146" duration="12311000" />
+      <workItem from="1724683485146" duration="13095000" />
     </task>
     <task id="LOCAL-00001" summary="test githubaction">
       <created>1724059453491</created>
@@ -212,7 +215,21 @@
       <option name="project" value="LOCAL" />
       <updated>1724853874825</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat:v5.1">
+      <created>1724854466716</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1724854466716</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat:v5.1">
+      <created>1724854641030</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1724854641030</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +256,10 @@
     <MESSAGE value="feat:v4.5" />
     <MESSAGE value="feat:v4.6" />
     <MESSAGE value="feat:v5.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:v5.1" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.github/workflows/main-maven-jar.yml" />
+    <MESSAGE value="&#10;--2" />
+    <MESSAGE value="&#10;--new yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;--new yml" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
