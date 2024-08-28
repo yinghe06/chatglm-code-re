@@ -4,11 +4,8 @@ import cn.heying.plus.sdk.types.utils.BearerTokenUtils;
 import com.alibaba.fastjson2.JSON;
 import java.io.*;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.ProtocolException;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
-
 public class OpenAiCodeReview {
     public static void main(String[] args) throws Exception {
         System.out.println("测试");

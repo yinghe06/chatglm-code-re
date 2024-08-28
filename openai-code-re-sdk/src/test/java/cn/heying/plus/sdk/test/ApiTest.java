@@ -3,11 +3,9 @@ import cn.heying.plus.sdk.domain.model.ChatCompletionSyncResponseDTO;
 import cn.heying.plus.sdk.types.utils.BearerTokenUtils;
 import com.alibaba.fastjson2.JSON;
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
-import java.net.PortUnreachableException;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 public class ApiTest {
