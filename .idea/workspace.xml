@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="422a7f40-d2a8-4038-8268-f1dc56c2ff7c" name="Changes" comment="&#10;--new yml">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/main-maven-jar.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main-maven-jar.yml" afterDir="false" />
+    <list default="true" id="422a7f40-d2a8-4038-8268-f1dc56c2ff7c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openai-code-re-sdk/src/main/java/cn/heying/plus/sdk/OpenAiCodeReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/openai-code-re-sdk/src/main/java/cn/heying/plus/sdk/OpenAiCodeReview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openai-code-re-test/src/main/java/cn/heying/plus/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/openai-code-re-test/src/main/java/cn/heying/plus/ApiTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +67,7 @@
       <recent name="D:\Develop\code\openai-code-re\.github\workflows" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.heying.plus.sdk.types.utils" />
       <recent name="cn.heying.plus.sdk.domain.model" />
     </key>
   </component>
@@ -75,7 +77,7 @@
       <command value="mvn idea:idea " />
     </option>
   </component>
-  <component name="RunManager" selected="Application.OpenAiCodeReview">
+  <component name="RunManager" selected="JUnit.ApiTest.test_wx">
     <configuration name="ApiTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.heying.plus.sdk.test.ApiTest" />
       <module name="openai-code-re-sdk" />
@@ -117,8 +119,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApiTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="openai-code-re-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.heying.plus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.heying.plus" />
+      <option name="MAIN_CLASS_NAME" value="cn.heying.plus.ApiTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test_wx" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="openai-code-re-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.heying.plus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.heying.plus" />
+      <option name="MAIN_CLASS_NAME" value="cn.heying.plus.ApiTest" />
+      <option name="METHOD_NAME" value="test_wx" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTest.test_wx" />
+        <item itemvalue="JUnit.ApiTest.test" />
         <item itemvalue="Application.OpenAiCodeReview" />
         <item itemvalue="Application.ApiTest" />
         <item itemvalue="JUnit.ApiTest" />
@@ -143,7 +179,7 @@
       <workItem from="1724675489391" duration="3862000" />
       <workItem from="1724680848169" duration="186000" />
       <workItem from="1724681065041" duration="2396000" />
-      <workItem from="1724683485146" duration="13095000" />
+      <workItem from="1724683485146" duration="20238000" />
     </task>
     <task id="LOCAL-00001" summary="test githubaction">
       <created>1724059453491</created>
@@ -229,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724854641030</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="&#10;--new yml">
+      <created>1724855437823</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1724855437823</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

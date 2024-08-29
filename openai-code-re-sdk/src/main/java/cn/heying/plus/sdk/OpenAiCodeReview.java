@@ -1,6 +1,8 @@
 package cn.heying.plus.sdk;
 import cn.heying.plus.sdk.domain.model.ChatCompletionSyncResponseDTO;
+import cn.heying.plus.sdk.domain.model.Message;
 import cn.heying.plus.sdk.types.utils.BearerTokenUtils;
+import cn.heying.plus.sdk.types.utils.WXAccessTokenUtils;
 import com.alibaba.fastjson2.JSON;
 import com.alibaba.fastjson2.writer.FieldWriter;
 import org.eclipse.jgit.api.Git;
@@ -14,6 +16,7 @@ import java.rmi.registry.LocateRegistry;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Random;
+import java.util.Scanner;
 
 public class OpenAiCodeReview {
     public static void main(String[] args) throws Exception {
@@ -36,9 +39,45 @@ public class OpenAiCodeReview {
         String log=codeReview(diffCode.toString());
         System.out.println("code review"+log);
         //写入评审日志,透传token通过脚本方式
-        writeLog(token,log);
+        String logUrl=writeLog(token,log);
+        // 4.消息通知
+        pushMessage(logUrl);
+        System.out.println("pushMessage: " + logUrl);
+
     }
-    public static String codeReview(String diffCode) throws Exception {
+    private static void pushMessage(String logUrl){
+        String accessToken = WXAccessTokenUtils.getAccessToken();
+        System.out.println(accessToken);
+        Message message = new Message();
+        message.put("project","big-market");
+        message.put("review","feat:新加功能");
+        String url = String.format("https://api.weixin.qq.com/cgi-bin/message/template/send?access_tolken=%s",accessToken);
+        sendPostRequest(url, JSON.toJSONString(message));
+
+    }
+
+    private static void sendPostRequest(String urlString,String jsonBody) {
+        try {
+            URL url = new URL(urlString);
+            HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+            conn.setRequestMethod("POST");
+            conn.setRequestProperty("Content-Type", "applicattion/json; utf-8");
+            conn.setRequestProperty("Accept", "application/json");
+            conn.setDoOutput(true);
+            try (OutputStream os = conn.getOutputStream()) {
+                byte[] input = jsonBody.getBytes(StandardCharsets.UTF_8);
+                os.write(input, 0, input.length);
+            }
+            try (Scanner scanner = new Scanner(conn.getInputStream(), StandardCharsets.UTF_8.name())){
+                String response = scanner.useDelimiter("\\A").next();
+                System.out.println(response);
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+            public static String codeReview(String diffCode) throws Exception {
         String apiKeyScrect = "f9b9e08c2f9bb195a620812dee4c3507.mwUfxgeng6lSF3cS";
         String token = BearerTokenUtils.getToken(apiKeyScrect);
         //System.out.println(token);
@@ -79,6 +118,8 @@ public class OpenAiCodeReview {
         ChatCompletionSyncResponseDTO response = JSON.parseObject(content.toString(), ChatCompletionSyncResponseDTO.class);
         return response.getChoices().get(0).getMessage().getContent();
     }
+
+
     public static String writeLog(String token,String log) throws Exception{
         Git git = Git.cloneRepository().setURI("https://github.com/yinghe06/openai-code-review-log.get")
                 .setDirectory(new File("repo"))
