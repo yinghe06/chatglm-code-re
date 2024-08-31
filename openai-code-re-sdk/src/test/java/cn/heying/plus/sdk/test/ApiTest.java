@@ -1,5 +1,5 @@
 package cn.heying.plus.sdk.test;
-import cn.heying.plus.sdk.domain.model.ChatCompletionSyncResponseDTO;
+import cn.heying.plus.sdk.infrastructure.openai.dto.ChatCompletionSyncResponseDTO;
 import cn.heying.plus.sdk.types.utils.BearerTokenUtils;
 import com.alibaba.fastjson2.JSON;
 import java.io.BufferedReader;

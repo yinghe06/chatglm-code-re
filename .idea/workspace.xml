@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="422a7f40-d2a8-4038-8268-f1dc56c2ff7c" name="Changes" comment="">
+    <list default="true" id="422a7f40-d2a8-4038-8268-f1dc56c2ff7c" name="Changes" comment="&#10;--feat:6消息模板">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main-maven-jar.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main-maven-jar.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/openai-code-re-sdk/src/main/java/cn/heying/plus/sdk/OpenAiCodeReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/openai-code-re-sdk/src/main/java/cn/heying/plus/sdk/OpenAiCodeReview.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openai-code-re-test/src/main/java/cn/heying/plus/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/openai-code-re-test/src/main/java/cn/heying/plus/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openai-code-re-sdk/src/main/java/cn/heying/plus/sdk/domain/model/ChatCompletionRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/openai-code-re-sdk/src/main/java/cn/heying/plus/sdk/infrastructure/openai/dto/ChatCompletionRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openai-code-re-sdk/src/main/java/cn/heying/plus/sdk/domain/model/ChatCompletionSyncResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/openai-code-re-sdk/src/main/java/cn/heying/plus/sdk/infrastructure/openai/dto/ChatCompletionSyncResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openai-code-re-sdk/src/test/java/cn/heying/plus/sdk/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/openai-code-re-sdk/src/test/java/cn/heying/plus/sdk/test/ApiTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +70,11 @@
       <recent name="D:\Develop\code\openai-code-re\.github\workflows" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.heying.plus.sdk.service.impl" />
+      <recent name="cn.heying.plus.sdk.service" />
+      <recent name="cn.heying.plus.sdk.domain.service.impl" />
       <recent name="cn.heying.plus.sdk.types.utils" />
-      <recent name="cn.heying.plus.sdk.domain.model" />
+      <recent name="cn.heying.plus.sdk.infrastructure.git" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -77,7 +83,7 @@
       <command value="mvn idea:idea " />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ApiTest.test_wx">
+  <component name="RunManager" selected="Application.OpenAiCodeReview">
     <configuration name="ApiTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.heying.plus.sdk.test.ApiTest" />
       <module name="openai-code-re-sdk" />
@@ -153,9 +159,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OpenAiCodeReview" />
         <item itemvalue="JUnit.ApiTest.test_wx" />
         <item itemvalue="JUnit.ApiTest.test" />
-        <item itemvalue="Application.OpenAiCodeReview" />
         <item itemvalue="Application.ApiTest" />
         <item itemvalue="JUnit.ApiTest" />
       </list>
@@ -179,7 +185,7 @@
       <workItem from="1724675489391" duration="3862000" />
       <workItem from="1724680848169" duration="186000" />
       <workItem from="1724681065041" duration="2396000" />
-      <workItem from="1724683485146" duration="20238000" />
+      <workItem from="1724683485146" duration="32664000" />
     </task>
     <task id="LOCAL-00001" summary="test githubaction">
       <created>1724059453491</created>
@@ -272,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724855437823</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="&#10;--feat:6消息模板">
+      <created>1724945326691</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1724945326691</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +315,8 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.github/workflows/main-maven-jar.yml" />
     <MESSAGE value="&#10;--2" />
     <MESSAGE value="&#10;--new yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;--new yml" />
+    <MESSAGE value="&#10;--feat:6消息模板" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;--feat:6消息模板" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

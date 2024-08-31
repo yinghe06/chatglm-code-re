@@ -1,4 +1,6 @@
-package cn.heying.plus.sdk.domain.model;
+package cn.heying.plus.sdk.infrastructure.openai.dto;
+
+import cn.heying.plus.sdk.domain.model.Model;
 
 import java.util.List;
 
