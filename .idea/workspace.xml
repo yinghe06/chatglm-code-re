@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="422a7f40-d2a8-4038-8268-f1dc56c2ff7c" name="Changes" comment="" />
+    <list default="true" id="422a7f40-d2a8-4038-8268-f1dc56c2ff7c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/main-remote-jar.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main-maven-jar.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main-maven-jar.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openai-code-re-sdk/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/openai-code-re-sdk/dependency-reduced-pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +49,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/Develop/code/openai-code-re",
+    "last_opened_file_path": "D:/Develop/code/openai-code-re/.github/workflows",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,8 +64,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Develop\code\openai-code-re" />
       <recent name="D:\Develop\code\openai-code-re\.github\workflows" />
+      <recent name="D:\Develop\code\openai-code-re" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.heying.plus.sdk.service.impl" />
@@ -178,7 +183,7 @@
       <workItem from="1724675489391" duration="3862000" />
       <workItem from="1724680848169" duration="186000" />
       <workItem from="1724681065041" duration="2396000" />
-      <workItem from="1724683485146" duration="37517000" />
+      <workItem from="1724683485146" duration="38711000" />
     </task>
     <task id="LOCAL-00001" summary="test githubaction">
       <created>1724059453491</created>
@@ -320,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1725109324233</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="&#10;--feat:7.3 工程重构">
+      <created>1725109508632</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1725109508632</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +366,8 @@
     <MESSAGE value="&#10;--feat:7 工程重构" />
     <MESSAGE value="&#10;--feat:7.1 工程重构" />
     <MESSAGE value="&#10;--feat:7.2 工程重构" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;--feat:7.2 工程重构" />
+    <MESSAGE value="&#10;--feat:7.3 工程重构" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;--feat:7.3 工程重构" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
