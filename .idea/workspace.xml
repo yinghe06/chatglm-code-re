@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="422a7f40-d2a8-4038-8268-f1dc56c2ff7c" name="Changes" comment="&#10;--feat:6消息模板">
+    <list default="true" id="422a7f40-d2a8-4038-8268-f1dc56c2ff7c" name="Changes" comment="&#10;--feat:7.1 工程重构">
       <change beforePath="$PROJECT_DIR$/.github/workflows/main-maven-jar.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main-maven-jar.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openai-code-re-sdk/src/main/java/cn/heying/plus/sdk/OpenAiCodeReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/openai-code-re-sdk/src/main/java/cn/heying/plus/sdk/OpenAiCodeReview.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openai-code-re-sdk/src/main/java/cn/heying/plus/sdk/domain/model/ChatCompletionRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/openai-code-re-sdk/src/main/java/cn/heying/plus/sdk/infrastructure/openai/dto/ChatCompletionRequestDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openai-code-re-sdk/src/main/java/cn/heying/plus/sdk/domain/model/ChatCompletionSyncResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/openai-code-re-sdk/src/main/java/cn/heying/plus/sdk/infrastructure/openai/dto/ChatCompletionSyncResponseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openai-code-re-sdk/src/test/java/cn/heying/plus/sdk/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/openai-code-re-sdk/src/test/java/cn/heying/plus/sdk/test/ApiTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +181,7 @@
       <workItem from="1724675489391" duration="3862000" />
       <workItem from="1724680848169" duration="186000" />
       <workItem from="1724681065041" duration="2396000" />
-      <workItem from="1724683485146" duration="32664000" />
+      <workItem from="1724683485146" duration="34748000" />
     </task>
     <task id="LOCAL-00001" summary="test githubaction">
       <created>1724059453491</created>
@@ -285,7 +281,21 @@
       <option name="project" value="LOCAL" />
       <updated>1724945326691</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="&#10;--feat:7 工程重构">
+      <created>1725099149095</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1725099149095</updated>
+    </task>
+    <task id="LOCAL-00016" summary="&#10;--feat:7.1 工程重构">
+      <created>1725099218556</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1725099218556</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +326,9 @@
     <MESSAGE value="&#10;--2" />
     <MESSAGE value="&#10;--new yml" />
     <MESSAGE value="&#10;--feat:6消息模板" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;--feat:6消息模板" />
+    <MESSAGE value="&#10;--feat:7 工程重构" />
+    <MESSAGE value="&#10;--feat:7.1 工程重构" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;--feat:7.1 工程重构" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
